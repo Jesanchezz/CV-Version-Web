@@ -168,11 +168,23 @@ img{
 	border-left: 10px solid rgb(192, 187, 187);
 }
 
+.container-title{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding:20px;
+}
 .title-content{
 	text-align: center;
-	margin: 20px;
 }
-
+.icon-object{
+	fill:#fff;
+	width: 40px;
+	height: 35px;
+	margin:7px;
+}
 
 /* Hover Styles */
 
